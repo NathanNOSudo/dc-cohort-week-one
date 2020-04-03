@@ -40,3 +40,7 @@ for a_first_name in first_names:
   for a_last_name in last_names:
     full_names.append(a_first_name + " " + a_last_name)
 
+#first line of a for loop, then the first and second lines of an inner loop. The second line of the inner loop displays the element in the inner list.
+for a in b:
+  for x in y:
+    print(x)
