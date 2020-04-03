@@ -28,3 +28,15 @@ for a_street in streets:
 cars = ["Tesla", "Bolt", "Leaf"]
 for a_car in cars:
   print(a_car)
+
+#for loops nested
+
+""" The second, or inner, loop runs a complete cycle of iterations on each iteration of the first, or outer, loop. The outer loop begins with the first name, BlueRay. The inner loop then runs four iterations, combining BlueRay with each of the four last names—Zzz, Burp, etc. It appends each combination to the list full_names. When that's finished, the program returns to the outer loop, which moves to the next first name, Upchuck. Then it jumps to the inner loop, which combines this name with each of the four last names and appends these combinations to the list full_names. It keeps going like this until all 20 combinations have been added to the list of full names. """
+
+first_names = ["BlueRay ", "Upchuck ", "Lojack ", "Gizmo ", "Do-Rag "]
+last_names = ["Zzz", "Burp", "Dogbone", "Droop"]
+full_names = []
+for a_first_name in first_names:
+  for a_last_name in last_names:
+    full_names.append(a_first_name + " " + a_last_name)
+
