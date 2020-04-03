@@ -44,3 +44,8 @@ for a_first_name in first_names:
 for a in b:
   for x in y:
     print(x)
+
+#Running an inner loop inside an outer loop. If the inner list contains an element with the value of 1, display "ok"
+for a in b:
+  for x in y:
+    print(x)
