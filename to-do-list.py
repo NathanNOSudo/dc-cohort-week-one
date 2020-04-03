@@ -21,7 +21,7 @@ while option != "q":
       task_dict = tasks[index]
       task_title = task_dict["title"]
       task_priority = task_dict["priority"]
-      print(f"{index}  {task_title}  {task_priority}")
+      print(f"{index+1}  {task_title}  {task_priority}")
       
     task_to_delete = int(input("I hope its completed....no take backs! Input number corresponding to task to you wish to delete: "))
 
@@ -33,7 +33,7 @@ while option != "q":
       task_dict = tasks[index]
       task_title = task_dict["title"]
       task_priority = task_dict["priority"]
-      print(f"{index}  {task_title}  {task_priority}")
+      print(f"{index+1}  {task_title}  {task_priority}")
       print("I HOPE YOU HAVE BEEN SANITIZING YOUR HANDS!")
 #if wrong button is pressed
   #else:
