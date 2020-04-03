@@ -7,3 +7,7 @@ print(products)
 products = ["lamp", "table", "chair", "couch", "sink"]
 products.remove("sink")
 print(products)
+
+#loop through a list, displaying each element.
+for x in y:
+  print(x)
