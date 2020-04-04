@@ -365,12 +365,12 @@ class ListManager:
 
     def run(self):
         if self.list.get_size() == 0:
-            print("Welcome to Super To-Do! You don't have any lists. Let's create one.")
+            print("Welcome to Nathan NOSudo still-to-Do-tho! You don't have any lists. Let's create one. AND PLEASE REMEBER TO SANITIZE YOUR HANDS")
             description = raw_input("Enter the first list item, then press ENTER:")
             self.list.add_item(description)
             self.edit_list_menu()
         else:
-            print("Welcome to the To-Do List!")
+            print("Welcome back to your list!")
             print("Your to-do's:")
             self.edit_list_menu()
 
@@ -409,7 +409,7 @@ class ListManager:
                 if index >= 0:
                     print("Item was found in list at index " + str(index) + ".")
                 elif index == -1:
-                    print(description + " was not found in your list.")
+                    print(description + " Not on list...Dont you know whats on your list? .")
                 else:
                     print("Multiple instances of " + description + " found in list. Try entering in more characters.")
                 self.list.display_list()
@@ -435,9 +435,9 @@ class ListManager:
         removed = self.list.remove_item(item_to_remove)
 
         if removed:
-            print("Item successfully removed.")
+            print("Item successfully rm -rf'd no going back now!")
         else:
-            print("Please try again:")
+            print("Please follow my instructions:")
 
     def edit(self):
         pass
