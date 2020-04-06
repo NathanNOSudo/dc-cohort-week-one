@@ -1,6 +1,6 @@
 import turtle
 wn = turtle.Screen()
-wn.bgcolor("lightgreen")
+wn.bgcolor("green")
 tess = turtle.Turtle()
 tess.color("blue")
 tess.shape("turtle")
@@ -13,6 +13,7 @@ for _ in range(30):    # start with size = 5 and grow by 2
     tess.right(24)              # and turn her
     dist = dist + 2
 wn.exitonclick()
+
 #############################################################
 ########### Method Parameters Description ###################
 #############################################################
