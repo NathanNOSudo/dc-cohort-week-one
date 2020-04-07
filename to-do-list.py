@@ -1,4 +1,4 @@
-option = input("Press 1 to add tasks; Press 2 to delete tasks; Press 3 to view all tasks; Press q to quit: ")
+option = input("\n   ______________________________ \n / \                             \. \n|   |                            |. \n \_ |                            |. \n    |                            |. \n    |       ** Grocery  **       |. \n    |            List            |. \n    |                            |. \n    |   Press 1 to add a item    |. \n    |  Press 2 to delete a item  |. \n    |    Press 3 to view list    |. \n    |      Press q to quit       |. \n    |                            |. \n    |                            |. \n    |                            |. \n    |   _________________________|___ \n    |  / By: Nathan NOSudo          /. \n    \_/____________________________/. \n \n>>>>>>>")
 tasks = []
 
 while option != "q":
